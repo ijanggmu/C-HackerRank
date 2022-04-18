@@ -47,8 +47,21 @@ namespace HackerRank
             //staircase.staircae(6);
 
             //MinMax
-            List<int> arr = new List<int>() { 1,2,3,4,5};
-            MinMax.miniMaxSum(arr);
+            //List<int> arr = new List<int>() { 1,2,3,4,5};
+            //MinMax.miniMaxSum(arr);
+            //BirthdayCake
+            Console.WriteLine("Please enter no integer: ");
+            int candlesCount = Convert.ToInt32(Console.ReadLine());
+            var candles = new List<int>();
+            for (int i = 0; i < candlesCount; i++)
+            {
+                Console.WriteLine($"Enter {i+1} no:");
+                candles.Add(Convert.ToInt32(Console.ReadLine()));
+            }
+            int result = BirthdayCake.birthdayCakeCandles(candles);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
