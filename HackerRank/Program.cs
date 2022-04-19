@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace HackerRank
 {
@@ -94,7 +95,7 @@ namespace HackerRank
             //foreach(var i in reult){
             //    Console.WriteLine(i);
             //};
-        
+
             //var apple = new List<int>()
             //{
             //    -2,2,1
@@ -141,7 +142,7 @@ namespace HackerRank
             //int a = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Enter the distance of Mango ");
             //int b = Convert.ToInt32(Console.ReadLine());
-           
+
             //var apple = new List<int>();
             //var mango = new List<int>();
             //for(int i=0;i<m;i++)
@@ -155,7 +156,86 @@ namespace HackerRank
             //    mango.Add(Convert.ToInt32(Console.ReadLine()));
             //}
             //OrangeApple.OrangeApples(s, t, a, b, apple, mango);
+
+            //maria basketball
+
+
+
+            //int[] score = new int[] { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
+            //int max = 0;
+            //int min = 0;
+            //int[] gameCount = new int[score.Length];
+
+            //min= score[0];
+            //max = score[0];
+            //for (int i=1;i<score.Length;i++)
+            //{
+            //    if (score[i] >=max)
+            //    {
+            //         max=score[i];
+            //         max++;
+            //    }
+            //    else
+            //    {
+            //        min=score[i];
+            //        max = score[i - 1];
+            //    }
+
+            //};
+            //print
+
+            //CamelCase
+            //String split = "oneTwoThreeFour";
+            //int count = 0;
+            //foreach(var i in split)
+            //{
+            //    if (Char.IsUpper(i))
+            //    {
+            //        count++;
+            //    }
+
+            //}
+            //Console.WriteLine(count + 1);
+            //Console.WriteLine(WordCounter.wordfunc("oneTwoThree"));
+            //string name = "@Ejan21";
+            //int u = 0;
+            //int l = 0;
+            //int d = 0;
+            //int s = 0;
+
+            //foreach (var i in name)
+            //{
+            //    if (char.IsUpper(i))
+            //    {
+            //        u = 1;
+            //    }
+            //    else if (char.IsLower(i))
+            //    {
+            //        l = 1;
+            //    }
+            //    else if (char.IsDigit(i))
+            //    {
+            //        d = 1;
+            //    }
+            //    else
+            //    {
+            //        s = 1;
+            //    }
+            //}
+            //    int req = 4 - (s + d + l + u);
+
+            //    if (name.Length + req < 6)
+            //    {
+            //        Console.WriteLine( 6 - name.Length);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(req);
+            //    }
+            //Console.WriteLine( strongPasswordChecker.spc("@Ejan21")); 
+
             Console.ReadLine();
+            
         }
     }
 }
