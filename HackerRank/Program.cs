@@ -1,8 +1,4 @@
-﻿
-
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -233,6 +229,8 @@ namespace HackerRank
             //        Console.WriteLine(req);
             //    }
             //Console.WriteLine( strongPasswordChecker.spc("@Ejan21")); 
+            
+            Console.WriteLine(  );
 
             Console.ReadLine();
             
