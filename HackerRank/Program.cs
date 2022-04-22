@@ -229,13 +229,68 @@ namespace HackerRank
             //        Console.WriteLine(req);
             //    }
             //Console.WriteLine( strongPasswordChecker.spc("@Ejan21")); 
-            
-            Console.WriteLine(  );
 
+            //Console.WriteLine(  );
+            //List<int> rank = new List<int> { 100, 90, 90, 80 };
+            //List<int> player= new List<int> { 70, 80, 105 };
+            //List<int> result = new List<int>();
+            //var cleanrank = rank.ToHashSet().ToArray();
+            //int j = cleanrank.Length - 1;
+            //for(int i = 0; i < player.Count; i++)
+            //{
+            //    bool rankfound = false;
+            //    while(!rankfound && j >= 0)
+            //    {
+            //        if (player[i] < cleanrank[j])
+            //        {
+            //            result.Add(j + 2);
+            //            rankfound = true;
+            //        }
+            //        else if (player[i] == cleanrank[j])
+            //        {
+            //            result.Add(j + 1);
+            //            rankfound = true;
+            //        }
+            //        else
+            //        {
+            //            j--;
+            //        }
+            //    }
+            //    if (!rankfound)
+            //    {
+            //        result.Add(1);
+            //    }
+            //}
+            //foreach(int a in result){ 
+            //Console.WriteLine($"{a}");
+            //}
+            //Console.WriteLine($"Enter the Total no Rank");
+            //var ranklength = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"Enter the Total no PlayerScore");
+            //var playerlength = Convert.ToInt32(Console.ReadLine());
+            //List<int> rank = new List<int> ();
+            //List<int> player = new List<int> ();
+            //for(int i = 0; i < ranklength; i++)
+            //{
+            //    Console.WriteLine($"Enter the {i+1} Rank");
+            //    var a=Convert.ToInt32(Console.ReadLine());
+            //    rank.Add(a);
+            //}
+            //for (int j = 0; j < playerlength; j++)
+            //{
+            //    Console.WriteLine($"Enter the {j + 1} Score");
+            //    var a = Convert.ToInt32(Console.ReadLine());
+            //    player.Add(a);
+            //}
+            //List<int>result=CheckRank.checkresult(rank, player);
+            //Console.WriteLine(String.Join("\n",result));
+            var a = new List<int>() { 1, 2, 3, 4, 5 };
+            var b = new List<int>() { 1, 2, 3, 4, 5 };
+            List.ls(a, b);
             Console.ReadLine();
             
         }
-    }
+    }   
 }
     
 
